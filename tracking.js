@@ -253,7 +253,7 @@ if (_d(".btn-search")) {
       showError("tracking id is greater than 10 characters");
     } else {
       // let url = `https://trackit-28f21-default-rtdb.firebaseio.com/${tracking}.json`;
-      let url = "https://expertbase-8dc16-default-rtdb.firebaseio.com/trackit";
+      let url = `https://expertbase-8dc16-default-rtdb.firebaseio.com/trackit/${tracking}.json`;
       getUrlJson(url);
       addSpinner();
     }
