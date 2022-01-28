@@ -128,7 +128,7 @@ function getUrlJson(domainUrl) {
         // window.alert(xhr.response.item.tracking_id);
         localStorage.setItem("trackingID", xhr.response.item.tracking_id);
         removeSpinner();
-        location.assign("/results.html");
+        location.assign("/B33J4b1/results.html");
       }
       // return xhr.response;
     }
