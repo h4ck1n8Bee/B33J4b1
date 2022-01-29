@@ -153,6 +153,59 @@ body {
 .cancel:hover {
   transform: scale(1.1);
 }
+.center_home {
+  position: fixed;
+  margin-top: 80vh;
+  width: 100vw;
+}
+.home_btn {
+  position: absolute;
+  background-color: #eee;
+  left: 50%;
+  width: 5rem;
+  border-radius: 100px;
+  padding: 1.2rem;
+  transform: translate(-50%, 0%);
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.home_btn > svg {
+  color: red;
+}
+
+.home_text {
+  visibility: hidden;
+  display: inline-block;
+  position: absolute;
+  transform: translate(5%, 50%);
+  margin-left: 0%;
+  text-transform: capitalize;
+  font-weight: 900;
+  opacity: 1;
+}
+.home_btn:hover {
+  width: 15rem;
+  box-shadow: 2px 5px 10px #000;
+  transform: translate(-50%, -2px);
+  cursor: pointer;
+}
+.display_inline_block {
+  visibility: visible;
+  animation: slideInLeft 0.5s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    margin-left: -100%;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0%;
+  }
+}
+
+
 
 /*  */
 .flex_row {
