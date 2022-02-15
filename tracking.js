@@ -342,6 +342,7 @@ if (_d(".home_btn")) {
 </svg>
 <span class="home_text">Back to hompage</span>`;
 
+    if(_d(".home_btn")){
   responsiveCode.subscribe(_d(".home_btn"), "mouseenter", () => {
     _d(".home_text").classList.add("display_inline_block");
   });
@@ -351,4 +352,5 @@ if (_d(".home_btn")) {
   responsiveCode.subscribe(_d(".home_btn"), "click", () => {
     location.assign("https://swiftmailinglogistics.com/");
   });
+    }
 }
