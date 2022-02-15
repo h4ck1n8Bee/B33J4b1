@@ -349,6 +349,6 @@ if (_d(".home_btn")) {
     _d(".home_text").classList.remove("display_inline_block");
   });
   responsiveCode.subscribe(_d(".home_btn"), "click", () => {
-    location.assign("https://swiftmailinglogistics.godaddysites.com/");
+    location.assign("https://swiftmailinglogistics.com/");
   });
 }
